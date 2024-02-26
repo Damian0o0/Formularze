@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+<html lang="pl=PL"
+	<head>
+		<title>Formularz</title>
+		<meta charset="UTF-8">
+        <meta name="description" content="Zadanie">
+        <meta name="keywords" content="Formularz">
+	</head>
+	<body>
+		<h1>Zadanie z formularzem</h1>
+		<form action="mailto:gorka.damian@zst.radom.pl" method="get">
+			<p><strong>Podaj nazwę swojej szkoły:</strong><input type="text"  name="nazwaszkoły" required autofocus></p>
+			<p><strong>Podaj datę rozpoczęcia nauki w szkole:</strong><input type="date"  name="data" required autofocus></p>
+			<p><strong>Podaj swój wiek:</strong><input type="number"  name="numer" min="1" max="120"  required autofocus></p>
+			<p><strong>Wybierz klasę:</strong></p>
+			<input type="radio"  name="klasa" value="1A" required autofocus>1A<br>
+			<input type="radio"  name="klasa" value="1B" required autofocus>1B<br>
+			<input type="radio"  name="klasa" value="1P" required autofocus>1P<br>
+			<p><strong>Zaznacz egzamin, do którego zamierzasz przystąpić:</strong></p>
+			<p><input type="checkbox"  name="INF.02"  autofocus>INF.02</p>
+			<p><input type="checkbox"  name="INF.03" autofocus>INF.03</p>
+			<p><input type="checkbox"  name="matura"  autofocus>Matura</p>
+			<p><strong>Podaj hasło:</strong><input type="password"  name="haslo" size="10" maxlength="20" required autofocus></p>
+			
+			<input type="submit" value="Wyślij">
+			<input type="reset" value="Wyczyść">
+		</form>
+	</body>
+</html>
